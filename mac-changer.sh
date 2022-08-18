@@ -1,15 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/bash
-
 ############################################
 #        Project : Mac Address changer     #
 #       author : Official Nitro Hacker     #
 #      					                   #
 ############################################
-
 clear
-echo 
 echo "
-
 ███╗░░░███╗░█████╗░░█████╗░  ░█████╗░██╗░░██╗░█████╗░███╗░░██╗░██████╗░███████╗██████╗░
 ████╗░████║██╔══██╗██╔══██╗  ██╔══██╗██║░░██║██╔══██╗████╗░██║██╔════╝░██╔════╝██╔══██╗
 ██╔████╔██║███████║██║░░╚═╝  ██║░░╚═╝███████║███████║██╔██╗██║██║░░██╗░█████╗░░██████╔╝
@@ -19,25 +15,21 @@ echo "
 	            V 1.3" | lolcat	      
 echo "         >>> created by:-Nitro " |lolcat
 echo -e    "\e[43m >>> Keep supporting:- Official Nitro hacker , Secure Room " |lolcat
-echo " "
 echo -e "\e[92m============================================================================\e[m "
 echo -e "\e[32m[\e[33m01\e[32m]\e[96m CHECK SCRIPT ITS WORKING OR NOT\e[m"
-echo -e  "\e[32m[\e[33m02\e[32m]\e[96m CREATE SERVICE FOR MAC CHANGER \e[m " 
-echo -e  "\e[32m[\e[33m03\e[32m]\e[96m CHECK STATUS \e[m " 
+echo -e "\e[32m[\e[33m02\e[32m]\e[96m CREATE SERVICE FOR MAC CHANGER \e[m " 
+echo -e "\e[32m[\e[33m03\e[32m]\e[96m CHECK STATUS \e[m " 
 echo -e "\e[32m[\e[33m00\e[32m]\e[96m update \e[m "                 
 echo -e "\e[92m===============================================================================\e[m "
 echo " "
 read -p $'\e[34m[*]\e[33m Hey Dude Enter Your Choice : \e[0m' n
 echo
 if [[ $n == 1 || $n == 01 ]]; then
-
 	     DIR="$HOME/macchanger"
 	        if [ -d "$DIR" ]; then
 	     cd $HOME
 	     cd macchanger
 	     sudo bash macchanger.sh
-	     
-
 	     else
 	     echo -e "\e[34m[*] Installing macchanger \e[m "
 		 echo -e "\e[34m[*] website- mysecureroom.com \e[m "
