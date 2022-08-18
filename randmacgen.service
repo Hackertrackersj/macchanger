@@ -1,0 +1,13 @@
+[Unit]
+Description=Random mac address genrator
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/macchanger/macchanger.sh
+
+
+[Install]
+WantedBy=multi-user.target
+

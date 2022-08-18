@@ -1,0 +1,3 @@
+Current MAC:   3c:25:d7:0f:ec:03 (Nokia Corporation)
+Permanent MAC: 08:00:27:a1:3c:3e (CADMUS COMPUTER SYSTEMS)
+New MAC:       00:04:c0:0c:5f:6c (CISCO SYSTEMS, INC.)
